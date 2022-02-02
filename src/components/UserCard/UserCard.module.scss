@@ -1,0 +1,19 @@
+.userCard {
+  padding: 10px;
+  width: 50%;
+  background: rgb(212, 212, 216);
+  border-radius: 8px;
+  box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.1);
+  margin: 15px 0px 15px;
+
+  .position {
+    margin-top: 15px;
+  }
+  .action {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+
+  }
+}

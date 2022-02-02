@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background-color: rgb(167, 139, 250);
+  border-radius: 9999px;
+
+  border: none;
+
+  padding: 10px;
+  min-width: 110px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: rgb(139, 92, 246);
+  }
+
+  transition-property: color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
